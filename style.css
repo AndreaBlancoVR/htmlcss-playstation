@@ -4,30 +4,80 @@
 
 
 img {
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
 }
 
-
-
-
-    /* HEADER  */
+    /* ---- HEADER ----  */
 
 header {
     background-color: black;
 }
 
-
-
-.ms_header-bar {
-    height: 36px;
-}
-
-.header-logo-wrapper {
-    height: 50%;
-    margin-right: 9px;
-}
-
 .ms_header-bar img {
-    
+    height: 13px;
 }
+
+    /* NAVBAR  */
+
+.ms_chevron {
+    margin-right: 1.255em;
+    margin-left: .255em;
+    width: 11px;
+  }
+
+.navbar .dropdown-toggle::after {
+    display: none;
+    /*margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;*/
+  }
+
+
+    /*  ---- MAIN ----  */
+
+    /*  GAME SECTION  */
+
+    /*  COMMONS  */
+
+.row.ms_game {
+    min-height: 586px;
+}
+
+/*
+section[class^='ms_game-section'] {
+    background-position: center;
+    background-size: cover;
+}
+*/
+
+section.ms_game {
+    background-position: center;
+    background-size: cover;
+}
+
+img.ms_game {
+    max-width: 203px;
+}
+
+h2.ms_game {
+    font-weight: 600;
+}
+
+button.ms_game {
+    background-color: #CD3D0F;
+    font-weight: 600;
+    padding-bottom: 9px;
+    white-space: nowrap;
+}
+
+
+    /* RETURNAL  */
+
+section.ms_game.ms_returnal {
+    background-image: url("img/jumbo-bg.png");
+}
+
