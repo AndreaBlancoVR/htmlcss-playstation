@@ -204,6 +204,17 @@ div.ms_game-card.ms_thumbnail:hover::before {
 
         /*  IT TAKE TWO  */
 
-        section.ms_it-take-two {
-            background-image: url("img/it-takes-two-hero-banner-desktop.jpg");
-        }
+section.ms_it-take-two {
+    background-image: url("img/it-takes-two-hero-banner-desktop.jpg");
+ }
+
+        /*  NUOVE USCITE  */
+
+
+section.nuove-uscite {
+    background-color: #1F1F1F;
+}
+
+div.ms_new-game-card.ms_thumbnail {
+    border-radius: 15px;   
+}
