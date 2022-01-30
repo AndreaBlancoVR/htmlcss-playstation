@@ -29,7 +29,7 @@ header {
 }
 
 .ms_color-grey-sb {
-    color: #727272;
+    color: #D9DADC;
 }  
 
 
@@ -56,6 +56,10 @@ button.btn {
 
 button.ms_game {
     background-color: #CD3D0F;
+}
+
+button.ms_grey {
+    background-color: #D9DADC;
 }
 
 
@@ -211,7 +215,7 @@ section.ms_it-take-two {
         /*  NUOVE USCITE  */
 
 
-section.nuove-uscite {
+section.ms_nuove-uscite {
     background-color: #1F1F1F;
 }
 
@@ -226,4 +230,15 @@ div.ms_new-game-card.ms_thumbnail {
 .esplora-ps4 h2 span {
     font-size: 2rem;
     vertical-align: top;
+}
+
+
+        /*  PLAYSTATION PLUS  */
+
+section.ms_ps-plus {
+    background-color: #BEBCBB;
+}
+
+img.ms_ps-plus_logo {
+    max-width: 318px;
 }
