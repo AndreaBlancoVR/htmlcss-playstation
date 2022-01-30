@@ -59,6 +59,14 @@ button.ms_game {
 }
 
 
+
+        /*  BORDERS  */
+
+.ms_border-c_ps {
+    border-color: #0072CE;
+}
+
+
         /* NAVBAR  */
 
 header nav.navbar {
@@ -150,3 +158,52 @@ div.ms_game-card.ms_thumbnail:hover::before {
     border: 3px solid #0072CE;
     border-radius: 20px;
 }
+
+
+        /* PLAYSTATION 5 & ACCESSORIES  */
+
+/* .ms_accessories .card-wrapper.active,
+.ms_accessories .card-wrapper:hover {
+    border-bottom: 2px solid #0072CE;
+}
+
+.row.ms_accessories .card-wrapper {
+    min-height: 190px;
+} */
+
+.row.ms_accessories .card-wrapper-tb img {
+    max-width: 65%;
+}
+
+.row.ms_accessories .card-wrapper-tb {
+    opacity: 0.5;
+}
+
+
+.ms_accessories .ms_accessories-col.active .card-wrapper-tb,
+.ms_accessories .ms_accessories-col:hover .card-wrapper-tb {
+    opacity: 1;
+}
+
+.ms_accessories .ms_accessories-col {
+    position: relative;
+}
+
+.ms_accessories .ms_accessories-col.active::after,
+.ms_accessories .ms_accessories-col:hover::after {
+    content: '';
+    display: block;
+    position: absolute; 
+    top: 100px;
+    bottom: -6px;
+    left: 10px;
+    right: 10px;  
+    border-bottom: 3px solid #0072CE; 
+}
+
+
+        /*  IT TAKE TWO  */
+
+        section.ms_it-take-two {
+            background-image: url("img/it-takes-two-hero-banner-desktop.jpg");
+        }
