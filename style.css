@@ -30,18 +30,21 @@ header {
 
 .ms_color-grey-sb {
     color: #727272;
-}  
+} 
 
+.ms_fw700 {
+    font-weight: 700;
+}
 
-.ms_font-weight_600 {
+.ms_fw600 {
     font-weight: 600;
 }
 
-.ms_font-weight_500 {
+.ms_fw500 {
     font-weight: 500;
 }
 
-.ms_font-weight_400 {
+.ms_fw400 {
     font-weight: 400;
 }
 
@@ -246,4 +249,44 @@ img.ms_ps-plus_logo {
 
 
         /*  SCONTI PLAYSTORE  */
+
+
+        /*  PLAYSTATION NOW  */ 
+
+
+section.ms_ps-now {
+    background-color: #161C3B;
+    min-height: 350px;
+}
+
+        /*  SOCIAL   */
+
+section.ms_ps-now {
+    min-height: 400px;
+}  
+
+
+        /* FOOTER  */
+
+footer {
+    background-color: #00439C;
+}
+
+footer .ms_sony-logo {
+    min-width: 98px;
+}
+
+footer .ms_country {
+    display: inline-block;
+}
+
+.ms_sie img {
+    max-width: 130px;
+}
+
+footer p span {
+    text-decoration: underline;
+}
+
+
 
