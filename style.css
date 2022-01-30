@@ -218,3 +218,12 @@ section.nuove-uscite {
 div.ms_new-game-card.ms_thumbnail {
     border-radius: 15px;   
 }
+
+
+        /* ESPLORA PLAYSTATION 4 */
+
+
+.esplora-ps4 h2 span {
+    font-size: 2rem;
+    vertical-align: top;
+}
