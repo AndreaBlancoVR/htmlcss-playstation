@@ -157,18 +157,30 @@ div.ms_game-card.ms_wrapper {
 
 
 div.ms_game-card.ms_thumbnail.active::before,
-div.ms_game-card.ms_thumbnail:hover::before {
+div.ms_game-card.ms_thumbnail::before {
     content: '';
     display: block;
     background-color: transparent;
     position: absolute; 
     top: -6px;
-    bottom: -5.5px;
-    left: 6px;
-    right: 6px;  
-    border: 3px solid #0072CE;
+    bottom: -6px;
+    left: -6px;
+    right: -6px;  
+    border: 3px solid transparent;
+    transition: border 0.2s linear 0s;
     border-radius: 20px;
 }
+
+div.ms_game-card.ms_thumbnail.active::before,
+div.ms_game-card.ms_wrapper:hover div.ms_game-card.ms_thumbnail::before {
+    border: 3px solid #0072CE;
+}
+ /* NON RIESCO A FARLO FUNZIONARE, PROBABILMENTE PER LE SOVRAPPOSIZIONI
+.ms_thumbnail.active,
+.ms_thumbnail::before:hover div.ms_game-card.ms_thumbnail {
+    transform: translateY(-5px);
+}
+*/
 
 
         /* PLAYSTATION 5 & ACCESSORIES  */
