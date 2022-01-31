@@ -10,6 +10,14 @@ img {
 ul {
     list-style-type: none;
 }
+ /*
+.ms_pntr {
+    cursor: pointer;
+}
+*/
+.col-sm-4, .col-md-3, .col-md-4, .col-12.col-lg-4, .col-lg-2, .col-xl-2 {
+    cursor: pointer;
+}
 
             /* ---- HEADER ----  */
 
@@ -102,6 +110,34 @@ header nav.navbar {
     border-bottom: 0;
     border-left: .3em solid transparent;*/
   }
+
+        /*    ESPERIMENTI NAVBAR  */
+
+ul.navbar-nav:nth-child(1) > li:nth-child(1) {
+
+}
+
+li.nav-item.dropdown {
+    position: unset;
+}
+
+
+ul.dropdown-menu.show {
+    min-width: 100%;
+    border: none;
+    border-radius: 0;
+    margin-top: 0;
+    background-color: #F8F9FA;
+}
+
+
+
+
+
+
+
+
+
 
 
             /*  ---- MAIN ----  */
@@ -200,6 +236,7 @@ div.ms_game-card.ms_wrapper:hover div.ms_game-card.ms_thumbnail::before {
 
 .row.ms_accessories .card-wrapper-tb {
     opacity: 0.5;
+    transition: opacity 0.2s linear 0s;
 }
 
 
